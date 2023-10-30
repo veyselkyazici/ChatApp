@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="KubernetesSettings">
+    <option name="contextName" value="gke_igneous-etching-399711_us-central1-c_my-first-cluster-1" />
+  </component>
+</project>
