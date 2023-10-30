@@ -12,6 +12,11 @@ spring:
         defaultZone: http://localhost:8761/eureka/
     instance:
       instance-id: ${spring.application.name}:${server.port}
+  rabbitmq:
+    host: ${RABBITMQ_HOST}
+    port: ${RABBITMQ_PORT}
+    username: ${RABBITMQ_USERNAME}
+    password: ${RABBITMQ_PASSWORD}
 
   datasource:
     url: jdbc:postgresql://${POSTGRES_SQL_HOST}:${POSTGRES_SQL_PORT}/${POSTGRES_SQL_DB}
